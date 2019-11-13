@@ -1,5 +1,5 @@
-function pfs --description 'Return the paths selected in the topmost Finder window'
-	osascript 2>/dev/null -e '
+function pfs -d 'Return the paths of the current Finder selection'
+    osascript 2>/dev/null -e '
 		set output to ""
 		tell application "Finder" to set the_selection to selection
 		set item_count to count the_selection

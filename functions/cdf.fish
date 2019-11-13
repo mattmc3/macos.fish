@@ -1,3 +1,3 @@
-function cdf --description 'Change to the current directory in Finder'
-	cd (pfd)
+function cdf -d 'cd to the current Finder directory'
+    cd (pfd)
 end

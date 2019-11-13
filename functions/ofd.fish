@@ -1,3 +1,3 @@
-function ofd --description 'Return the path of the frontmost Finder window'
-	open "$PWD"
+function ofd -d 'Open the current directory in a Finder window'
+    open "$PWD"
 end

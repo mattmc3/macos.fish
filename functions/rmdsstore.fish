@@ -1,4 +1,4 @@
-function rmdsstore --description "Remove .DS_Store files recursively"
-	set -q $argv[1]; and set argv '.'
-	find "$argv" -type f -name .DS_Store -delete
+function rmdsstore -d 'Remove .DS_Store files recursively in a directory'
+    set -q $argv[1] && set argv '.'
+    find "$argv" -type f -name .DS_Store -delete
 end

@@ -9,6 +9,10 @@ trim_trailing_whitespace = true
 indent_style = tab
 indent_size = 4
 
+[*.fish]
+indent_style = space
+indent_size = 4
+
 [*.{md,markdown}]
 # Don't trim end spacing because unfortunately Markdown uses that
 indent_style = space
