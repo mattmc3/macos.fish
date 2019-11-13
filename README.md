@@ -4,22 +4,6 @@ macOS functions for fish
 
 ## Functions
 
-```fish
-# change to the directory in the topmost Finder window
-cdf
-
-# show the files selected in the topmost Finder window
-pfs
-
-# Open the current terminal diretory in a Finder window
-ofd
-
-# Remove pesky .DS_Store files
-rmdsstore
-
-# and more...
-```
-
 | Category  | Command       | Description                                                           |
 |:----------|:--------------|:----------------------------------------------------------------------|
 | Clipboard | `clipcopy`    | Copy file or stream to clipboard                                      |
