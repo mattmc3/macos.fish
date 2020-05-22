@@ -1,4 +1,4 @@
-# fish-macos
+# macos
 
 macOS functions for fish
 
@@ -6,8 +6,6 @@ macOS functions for fish
 
 | Category  | Command       | Description                                                           |
 |:----------|:--------------|:----------------------------------------------------------------------|
-| Clipboard | `clipcopy`    | Copy file or stream to clipboard                                      |
-| Clipboard | `clippaste`   | Paste from clipboard                                                  |
 | Finder    | `hidefiles`   | Hide the normally hidden dotfiles in Finder                           |
 | Finder    | `showfiles`   | Show hidden files in Finder                                           |
 | Finder    | `cdf`         | `cd` to the current Finder directory                                  |
@@ -29,18 +27,10 @@ macOS functions for fish
 
 ## Install
 
-Fisher:
+fisher installation:
 
 ```shell
-# fisher installation
-fisher add https://github.com/mattmc3/fish-macos
-```
-
-OMF:
-
-```shell
-# oh-my-fish installation
-omf install https://github.com/mattmc3/fish-macos
+fisher add fishingline/macos
 ```
 
 ## Inspiration
@@ -49,5 +39,5 @@ omf install https://github.com/mattmc3/fish-macos
 - oh-my-fish has their version [here][omf-osx].
 
 
-[omz-osx]: https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/osx/osx.plugin.zsh
+[omz-osx]: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/osx/osx.plugin.zsh
 [omf-osx]: https://github.com/oh-my-fish/plugin-osx
