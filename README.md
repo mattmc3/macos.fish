@@ -27,10 +27,16 @@ macOS functions for fish
 
 ## Install
 
-fisher installation:
+[reel] installation:
 
 ```shell
-fisher add fishingline/macos
+reel in mattmc3/macos.fish
+```
+
+[fisher] installation:
+
+```shell
+fisher add mattmc3/macos.fish
 ```
 
 ## Inspiration
@@ -41,3 +47,5 @@ fisher add fishingline/macos
 
 [omz-osx]: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/osx/osx.plugin.zsh
 [omf-osx]: https://github.com/oh-my-fish/plugin-osx
+[reel]: https://github.com/mattmc3/reel
+[fisher]: https://github.com/jorgebucaran/fisher
